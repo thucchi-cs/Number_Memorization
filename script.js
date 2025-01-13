@@ -105,8 +105,8 @@ function checkOrder() {
 
 for (let i = 0; i < startButton.length; i++) {
     startButton[i].addEventListener("click", () => {
-        startWindow.style.marginTop = "-100%";
-        endWindow.style.marginTop = "-100%"
+        startWindow.style.marginTop = "-100vh";
+        endWindow.style.marginTop = "-100vh"
         console.log('hi');
         setTimeout(() => {
             for (let i = 0; i < 9; i++) {
@@ -121,7 +121,7 @@ for (let i = 0; i < startButton.length; i++) {
 newSession.addEventListener("click", () => {
     tries = 0;
     success = 0;
-    endWindow.style.marginTop = "-100%";
+    endWindow.style.marginTop = "-100vh";
 })
 
 document.body.style.backgroundColor = "#000435";
