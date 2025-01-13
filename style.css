@@ -1,0 +1,37 @@
+body {
+    transition: 500ms;
+    background-color: #000435;
+}
+
+.window {
+    width: 80vw;
+    height: 80vh;
+    background-color: #0000BB;
+    position: absolute;
+    margin-top:10vh;
+    margin-left: 10vw;
+    transition: 500ms;
+    color: white;
+    text-align: center;
+}
+
+.end {
+    margin-top: -100%;
+}
+
+.window div {
+    width: 80%;
+    margin: 10%;
+}
+
+.window p {
+    font-size: 4vh;
+}
+
+.box {
+    background-color: skyblue;
+    color: #0000BB;
+    position:absolute;
+    text-align: center;
+    line-height: 1;
+}
